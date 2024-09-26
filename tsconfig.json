@@ -20,13 +20,14 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
     }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "app/ui/*.d.ts",
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js"
